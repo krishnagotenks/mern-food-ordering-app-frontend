@@ -13,12 +13,7 @@ const Auth0ProviderWithNavigate = ({ children }: Props) => {
   const clientId = import.meta.env.VITE_AUTH0_CLIENT_ID;
   const redirectUri = import.meta.env.VITE_AUTH0_CALLBACK_URL;
   const audience=import.meta.env.VITE_AUTH0_AUDIENCE
-  console.log(import.meta.env);
-
-  // Debugging Logs
-  console.log('Domain:', domain);
-  console.log('Client ID:', clientId);
-  console.log('Redirect URI:', redirectUri);
+ 
 
   // Check if any variable is undefined or missing
   if (!domain || !clientId || !redirectUri || !audience) {

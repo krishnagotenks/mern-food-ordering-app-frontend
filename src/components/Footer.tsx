@@ -7,7 +7,7 @@ const Footer = () => {
         
         {/* Site Name */}
         <span className="text-4xl text-white font-extrabold tracking-tight">
-          MernEats.com
+          Eaters.com
         </span>
 
         {/* Links */}
@@ -36,7 +36,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="mt-8 text-center text-white text-sm opacity-75">
-        © {new Date().getFullYear()} MernEats. All rights reserved.
+        © {new Date().getFullYear()} Eaters. All rights reserved.
       </div>
     </footer>
   );
